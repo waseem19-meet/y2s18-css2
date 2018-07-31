@@ -6,6 +6,8 @@ body {
     font-size: 36pt;
     font-family: sans-serif;
     height: 60px;
+    border-bottom: 1px solid gray;
+    padding: 15px 10px;
 }
 
 .container {
@@ -14,7 +16,7 @@ body {
 }
 
 .sidebar {
-    width: 180px;
+    width: 150px;
     background: #ff6677;
     position: absolute;
     top: 0;
@@ -25,5 +27,10 @@ body {
     background: #ffffcc;
     position: absolute;
     top: 0;
-    left: 200px;
+    left: 150px;
+    border: 5px solid blue;
+    margin: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
 }
